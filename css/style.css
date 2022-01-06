@@ -1,5 +1,5 @@
 :root {
-  --dark-blue: hsl(216, 15%, 20%);
+  --dark-blue: hsl(217, 54%, 11%);
   --dark-blue-card: hsl(216, 50%, 16%);
   --dark-blue-line: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
@@ -169,6 +169,14 @@ a:visited {
   margin-right: 0.5em;
 }
 /* icons */
+
+.title {
+  color: var(--white);
+  background-color: var(--dark-blue);
+  padding: 1em;
+  text-align: center;
+  font-size: 1.2em;
+}
 
 /* footer */
 .attribution {
